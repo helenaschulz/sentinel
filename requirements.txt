@@ -1,0 +1,22 @@
+# ESA-ADB Anomaly Detection — pinned dependencies
+# ML stack: exact pins (breaking changes expected across minor versions)
+scikit-learn==1.7.2
+tensorflow==2.16.2
+keras==3.13.2
+
+# Data & numerics: compatible-release pins
+numpy~=1.26
+pandas~=2.3
+pyarrow~=19.0
+
+# Visualisation
+matplotlib~=3.10
+seaborn~=0.13
+plotly~=6.0
+
+# Notebook & dev tools
+jupyter~=1.1
+pytest~=8.3
+
+# App / serving
+streamlit~=1.56

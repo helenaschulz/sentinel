@@ -1,0 +1,9 @@
+# Place Kaggle competition files here:
+#
+#   train.parquet
+#   test.parquet
+#   sample_submission.parquet
+#   target_channels.csv
+#
+# Download from:
+# https://www.kaggle.com/competitions/esa-adb-challenge/data
