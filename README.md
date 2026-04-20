@@ -92,7 +92,7 @@ ESA flight control engineers at ESOC in Darmstadt.
 
 ## Metric
 
-**Corrected event-wise F0.5** (Kotowski et al. 2024 / Sehili et al. 2023)
+**Corrected event-wise F0.5** [`Kotowski et al. 2024 / Sehili et al. 2023`](https://arxiv.org/pdf/2406.17826?)
 
 Reference implementation: [`kplabs-pl/ESA-ADB`](https://github.com/kplabs-pl/ESA-ADB)
 
@@ -152,7 +152,7 @@ Full analysis in [`notebooks/01-eda.ipynb`](notebooks/01-eda.ipynb). Key results
 
 ---
 
-## Results
+## Results WIP
 
 | Model | Val F0.5 | Kaggle Public | Val Events | Notes |
 |---|---|---|---|---|
