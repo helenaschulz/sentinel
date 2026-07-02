@@ -39,7 +39,7 @@ Either stream alone reaches approximately 0.85 ESA F0.5 on validation; fused, th
 
 ```bash
 # Clone and set up environment
-git clone git@github.com:alexfederolf/sentinel.git
+git clone git@github.com:helenaschulz/sentinel.git
 cd sentinel
 pyenv virtualenv 3.10.6 sentinel
 pyenv local sentinel
@@ -104,8 +104,9 @@ All paths relative to `notebooks/`. EDA notebooks live in `notebooks/EDA/`.
 
 | Notebook | Description |
 |---|---|
-| `EDA/01-eda.ipynb` | Signal EDA - component structure, anomaly characterisation |
-| `EDA/18-level_shift_1.ipynb` | Shift analysis - identifies the 10 level-shifted channels |
+| `00-eda_kaggle.ipynb` ⭐ | Standalone EDA - events, baseline shift, channel structure (Kaggle-publishable) |
+| `EDA/01-eda.ipynb` | Full signal EDA - component structure, anomaly characterisation, telecommands |
+| `EDA/18-level_shift_1.ipynb` | Shift analysis - identifies the 10 lock-step channels |
 | `EDA/ek_freq_eda.ipynb` | Frequency EDA - identifies channels 41–46 as stable spectral cluster |
 | `ek_baseline_zscore.ipynb` | Detrended Envelope Z-Score - envelope residual + z-score stream |
 | `02-preprocessing.ipynb` | Preprocessing pipeline walkthrough |

@@ -30,6 +30,10 @@ data/processed/*
 !data/processed/test_api_fe.npy
 !data/processed/y_test_api_fe.npy
 
+# ── Logs ──────────────────────────────────────────────────────────────────────
+logs/
+*.log
+
 # ── Tool / test caches ────────────────────────────────────────────────────────
 .pytest_cache/
 .mypy_cache/
